@@ -115,7 +115,7 @@ public class ProductoDAO extends Conexion {
         return p;
     }
 
-    public List<Producto> obtenerCategorias() {
+    public List<Producto> obtenerProductos() {
         List<Producto> productos = new ArrayList<>();
         try {
             conectar();
