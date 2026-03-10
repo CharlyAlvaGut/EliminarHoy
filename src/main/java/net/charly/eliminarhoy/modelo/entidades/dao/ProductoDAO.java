@@ -81,7 +81,7 @@ public class ProductoDAO extends Conexion {
             }
 
         } catch (SQLException ex) {
-            System.out.println("Error al eliminar la producto! :( " + ex.getLocalizedMessage());
+            System.out.println("Error al eliminar el producto! :( " + ex.getLocalizedMessage());
 
         } finally {
             desconectar();
@@ -108,7 +108,7 @@ public class ProductoDAO extends Conexion {
             }
 
         } catch (SQLException ex) {
-            System.out.println("Error al obtener la categoria! " + ex.getLocalizedMessage());
+            System.out.println("Error al obtener el producto especificado! " + ex.getLocalizedMessage());
         } finally {
             desconectar();
         }
@@ -135,7 +135,7 @@ public class ProductoDAO extends Conexion {
             }
 
         } catch (SQLException ex) {
-            System.out.println("Error al obtener la categoria! " + ex.getLocalizedMessage());
+            System.out.println("Error al obtener los productos disponibles! " + ex.getLocalizedMessage());
         } finally {
             desconectar();
         }

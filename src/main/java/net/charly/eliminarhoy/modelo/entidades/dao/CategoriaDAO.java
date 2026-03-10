@@ -98,7 +98,7 @@ public class CategoriaDAO extends Conexion {
             }
 
         } catch (SQLException ex) {
-            System.out.println("Error al obtener la categoria! " + ex.getLocalizedMessage());
+            System.out.println("Error al obtener la categoria especificada! " + ex.getLocalizedMessage());
         } finally {
             desconectar();
         }
@@ -121,7 +121,7 @@ public class CategoriaDAO extends Conexion {
             }
 
         } catch (SQLException ex) {
-            System.out.println("Error al obtener la categoria! " + ex.getLocalizedMessage());
+            System.out.println("Error al obtener las categorias disponibles! " + ex.getLocalizedMessage());
         } finally {
             desconectar();
         }
